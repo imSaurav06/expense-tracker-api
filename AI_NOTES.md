@@ -6,36 +6,41 @@
 
 ## AI-Assisted Work
 
-ChatGPT was used to assist with:
+I used ChatGPT to help with:
 
 - Initial Express project setup
-- API structure and routing
-- CRUD endpoint implementation
+- Project structure (routes, controllers, services, middleware)
+- CRUD endpoint boilerplate
 - Validation middleware
 - Jest and Supertest test examples
-- README documentation
+- Swagger documentation setup
+- README formatting
 
 ## My Contributions
 
-I personally:
+I implemented and integrated the application myself, including:
 
-- Implemented and organized the project structure.
-- Integrated all routes, controllers, services, and utilities.
-- Tested every endpoint using Postman.
-- Fixed routing issues and middleware integration.
-- Fixed UUID compatibility issues with Jest.
-- Debugged API responses and validation.
-- Ran and verified the complete Jest test suite.
+- Organizing the project structure
+- Connecting routes, controllers, services, and utilities
+- Implementing the application logic
+- Testing every endpoint using Postman
+- Debugging routing and middleware issues
+- Resolving UUID compatibility issues with Jest
+- Writing, running, and verifying the automated test suite
+- Verifying Swagger documentation
 
-## Validation Performed
+## Validation and Changes
 
-- Manual API testing using Postman.
-- Automated testing using Jest and Supertest.
-- Verified JSON file persistence.
-- Verified validation and error handling.
+I reviewed and tested all AI-generated code before using it. During development I:
+
+- Fixed routing and middleware integration issues
+- Corrected UUID compatibility for the Jest environment
+- Improved request validation and error handling
+- Verified all API endpoints manually using Postman
+- Ran the Jest test suite to confirm the expected behavior
 
 ## AI Suggestions Not Used
 
-One suggestion was to keep all data only in memory.
+One suggestion was to store all expense data only in memory.
 
-I chose JSON file storage instead because it better demonstrates persistence while still satisfying the assignment requirements.
+I chose to use a local JSON file instead because it preserves data between server restarts while still meeting the assignment requirement of not using a database.
